@@ -5,9 +5,13 @@ def nyc_pigeon_organizer(data)
    
     value.each do |innerk,innern|
       k.each do |name|
-      binding.pry  
+     if !i|[name] 
+       i[name] = {}
+      end
+      if !i[name][key]
+        !i[name][key] =[]
     end
-      
+    i[name][key].push(innerk)
   end
   end
 end
