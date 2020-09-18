@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
       if !i[name][key]
         !i[name][key] =[]
     end
-    i[name][key].push(innerk)
+    i[name][key].push(inner_k)
   end
   end
 end
